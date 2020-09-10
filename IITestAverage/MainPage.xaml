@@ -15,7 +15,7 @@
                Keyboard="Numeric"
                />
         <Entry x:Name="EntryTest2"
-               Placeholder="Test 1 Score"
+               Placeholder="Test 2 Score"
                HorizontalOptions="Center"
                Margin="0,30,0,0"
                TextColor="White"
@@ -23,7 +23,7 @@
                Keyboard="Numeric"
                />
         <Entry x:Name="EntryTest3"
-               Placeholder="Test 1 Score"
+               Placeholder="Test 3 Score"
                HorizontalOptions="Center"
                Margin="0,30,0,0"
                TextColor="White"

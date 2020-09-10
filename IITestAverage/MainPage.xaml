@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IITestAverage.MainPage"
+             Title="Isaac's Test Average App"
+             >
+
+    <StackLayout BackgroundColor="Black">
+        <Entry x:Name="EntryTest1"
+               Placeholder="Test 1 Score"
+               HorizontalOptions="Center"
+               Margin="0,30,0,0"
+               TextColor="White"
+               PlaceholderColor="White"
+               Keyboard="Numeric"
+               />
+        <Entry x:Name="EntryTest2"
+               Placeholder="Test 1 Score"
+               HorizontalOptions="Center"
+               Margin="0,30,0,0"
+               TextColor="White"
+               PlaceholderColor="White"
+               Keyboard="Numeric"
+               />
+        <Entry x:Name="EntryTest3"
+               Placeholder="Test 1 Score"
+               HorizontalOptions="Center"
+               Margin="0,30,0,0"
+               TextColor="White"
+               PlaceholderColor="White"
+               Keyboard="Numeric"
+               />
+        <Button x:Name="BtnAverage"
+                Text="Calculate Average"
+                Margin="30"
+                Padding="0, 30"
+                BackgroundColor="Purple"
+                TextColor="White"
+                Clicked="BtnAverage_Clicked" 
+                />
+        <Button x:Name="BtnClear"
+                Text="Clear"
+                Margin="30"
+                Padding="0, 30"
+                BackgroundColor="Purple"
+                TextColor="White"
+                Clicked="BtnClear_Clicked" 
+                />
+        <Label x:Name="LblResults"
+               Text="Results..."
+               HorizontalOptions="Center" 
+               TextColor="White"
+               FontSize="30"
+               />
+    </StackLayout>
+
+</ContentPage>
